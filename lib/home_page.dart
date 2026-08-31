@@ -21,6 +21,7 @@ class HomePage extends StatelessWidget{
 
          Obx( () => Text(
            "${controller.count.value}",
+
          )
          ),
          SizedBox(height:30),
