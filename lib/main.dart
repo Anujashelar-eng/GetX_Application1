@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:getx_application1/home_page.dart';
 import 'package:getx_application1/screens/login/login_page.dart';
+import 'package:getx_application1/screens/login/change_password.dart';
+import 'package:getx_application1/screens/login/otp_verification.dart';
 
 void main(){
   runApp(MyApp());
@@ -14,7 +16,7 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context){
     return GetMaterialApp(
       debugShowCheckedModeBanner:false,
-      home:LoginPage(),
+      home:ChangePassword(),
     );
   }
 }
