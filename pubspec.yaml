@@ -38,6 +38,7 @@ dependencies:
   google_fonts: ^8.2.1
   flutter_svg: ^2.3.0
   pinput: ^6.0.2
+  radio_button: ^1.0.0
 
 dev_dependencies:
   flutter_test:
@@ -60,10 +61,11 @@ flutter:
     - assets/images/Rectangle 3.svg
     - assets/images/Group 21.svg
     - assets/images/Rectangle 18.svg
-    - assets/images/Group 8.png
+    - assets/images/Group 8.svg
     - assets/images/Group 20.svg
     - assets/images/Group 23.svg
     - assets/images/Rectangle 2.svg
+    - assets/images/Vector.svg
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in

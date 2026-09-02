@@ -363,6 +363,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.2.1"
+  radio_button:
+    dependency: "direct main"
+    description:
+      name: radio_button
+      sha256: "96935803722be26c0144e8496519babbbbce4402464e2db19cfc07bf5944988b"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.0"
   record_use:
     dependency: transitive
     description:
