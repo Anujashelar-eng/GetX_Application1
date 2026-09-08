@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:getx_application1/about_page.dart';
+import 'package:getx_application1/screens/about_page.dart';
 import 'package:getx_application1/controllers/home_controller.dart';
 
 class HomePage extends StatelessWidget{

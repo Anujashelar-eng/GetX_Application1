@@ -1,5 +1,6 @@
 import "package:flutter/material.dart";
 import "package:flutter_svg/flutter_svg.dart";
+import "package:getx_application1/screens/product_details.dart";
 import "package:google_fonts/google_fonts.dart";
 class ServiceRegister extends StatelessWidget {
   const ServiceRegister({super.key});
@@ -470,7 +471,12 @@ class ServiceRegister extends StatelessWidget {
               SizedBox(height:10),
               ElevatedButton(
                 onPressed: () {
-                  Navi
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder:((context) => ProductDetails()),
+                    )
+                  );
                 },
                 style: ElevatedButton.styleFrom(
                   backgroundColor: const Color.fromRGBO(216, 58, 80, 1),
