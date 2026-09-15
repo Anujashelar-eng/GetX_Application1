@@ -2,6 +2,7 @@ import 'dart:developer';
 
 import 'package:dio/dio.dart';
 import 'package:getx_application1/model/login_request.dart';
+
 class AuthService {
   final Dio dio = Dio();
 
